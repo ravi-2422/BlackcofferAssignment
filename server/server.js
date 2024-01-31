@@ -14,7 +14,7 @@ app.use(cors());
 //connecting to database
 connectDatabase();
 
-const jsonData = {};
+let jsonData = {};
 
 function saveData() {
   const filePath = "./models/jsondata.json";
